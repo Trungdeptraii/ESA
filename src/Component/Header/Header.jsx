@@ -21,8 +21,8 @@ export default function Header() {
         <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
           <span className={style["toggle"]} onClick={handleToggle}><FontAwesomeIcon icon={toggle}/></span>
         </div>
-        <div className="col-5 col-sm-0 col-md-5 col-lg-5 col-xl-5 col-xxl-5 justify-content-end" style={{display: 'flex'}}>
-          <img src={logo} alt="logo" style={{height: '50px', width:'auto'}}/>
+        <div className="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-5 justify-content-end align-items-end" style={{display: 'flex'}}>
+          <img className={style["logo"]} src={logo} alt="logo"/>
         </div>
       </div>
     </div>
