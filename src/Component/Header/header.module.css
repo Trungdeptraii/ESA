@@ -14,7 +14,11 @@
     height: 50px;
 
 }
-@media (max-width: 576px) { 
+.side{
+    position: relative;
+
+}
+@media (max-width: 768px) { 
     .logo{
         height: 40px;
     }
